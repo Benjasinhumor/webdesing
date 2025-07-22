@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de contacto</title>
+</head>
+<body>
+  <header>
+     <center> <h1>Bienvenido a mi sitio web</h1>
+ 
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Inicio</h2>
+      <p>Esta es la sección de inicio de la página. Acá podés dar una introducción general.</p>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Podés usar esta sección para describirte, mostrar tu experiencia, etc.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+    <form action="https://formspree.io/f/mnqwyrlo" method="POST">
+  <label for="nombre">Nombre:</label><br />
+  <input type="text" id="nombre" name="nombre" required><br><br>
+
+  <label for="email">Correo electrónico:</label><br />
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="mensaje">Mensaje:</label><br />
+  <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+
+
+    </section>
+  </main>
+<center>
+  <footer>
+    <p>&copy; 2025 - Mi sitio web</p>
+  </footer>
+</body>
